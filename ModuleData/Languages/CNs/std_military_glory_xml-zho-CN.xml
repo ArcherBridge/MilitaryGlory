@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags><tag language="简体中文" /></tags>
+  <strings>
+    <string id="MG_DLG_NO_FIEF" text="长官，您还没有可授予我的城镇或城堡，我无法建立新的贵族家族。" />
+    <string id="MG_DLG_NO_GOLD" text="长官，您目前无法为我提供建立家族所需的20000第纳尔。" />
+    <string id="MG_DLG_NO_INFLUENCE" text="长官，您的影响力不足以册封贵族；册封需要500影响力。" />
+    <string id="MG_DLG_NO_RESOURCES" text="长官，建立家族需要20000第纳尔，册封贵族还需要500影响力。" />
+    <string id="MG_ORIGIN_LEGACY_SAVE" text="旧存档初始队伍" />
+    <string id="MG_STATUS_WOUNDED" text="受伤" />
+    <string id="MG_STATUS_READY" text="可参战" />
+    <string id="MG_UI_NAME" text="兵种" />
+    <string id="MG_UI_NUMBER" text="编号" />
+    <string id="MG_UI_KILLS" text="杀敌数" />
+    <string id="MG_UI_WOUNDS" text="受伤次数" />
+    <string id="MG_UI_STATUS" text="当前状态" />
+    <string id="MG_UI_ACTION" text="操作" />
+    <string id="MG_UI_TALK" text="对话" />
+    <string id="MG_UI_ROSTER_HINT" text="军功表" />
+    <string id="MG_BATTLE_DISTRIBUTED" text="军功爵：已为" />
+    <string id="MG_BATTLE_TYPES" text="个兵种分配本场军功，共" />
+    <string id="MG_BATTLE_KILLS" text="次击杀。" />
+    <string id="MG_BATTLE_NO_DATA" text="军功爵：未捕获到玩家队伍的结算数据。" />
+    <string id="MG_BATTLE_TRACKING_STARTED" text="军功爵：本场战功统计已启动。" />
+    <string id="MG_MODULE_ACTIVE" text="军功爵：战功模块已加载（构建1469）。" />
+    <string id="MG_DLG_HELLO" text="长官，您找我？" />
+    <string id="MG_DLG_OFFER" text="我要嘉奖你的效力。你的军功足以使你成为领主。" />
+    <string id="MG_DLG_OFFER_UNQUALIFIED" text="我要嘉奖你的效力。" />
+    <string id="MG_DLG_INSUFFICIENT" text="长官，我的能力还不足以担任领主。" />
+    <string id="MG_DLG_NO_AUTHORITY" text="长官，您还没有册封我为领主的权力。" />
+    <string id="MG_DLG_LEAVE" text="没事，你先退下吧。" />
+    <string id="MG_DLG_ACCEPT" text="是的，您能想到我，我非常荣幸。" />
+    <string id="MG_DLG_NAME" text="很好。我会赐予你一块封地，并为你的家族选择名号。" />
+    <string id="MG_DLG_LATER" text="此事以后再议。" />
+    <string id="MG_ORIGIN_UNKNOWN" text="出生地未知" />
+    <string id="MG_ORIGIN_BANDIT" text="强盗" />
+    <string id="MG_ORIGIN_CAPTIVE" text="俘虏" />
+    <string id="MG_ENNOBLE_TITLE" text="册封领主" />
+    <string id="MG_HERO_NAME_PROMPT" text="请为这名士兵确定姓名：" />
+    <string id="MG_CONTINUE" text="继续" />
+    <string id="MG_CANCEL" text="取消" />
+    <string id="MG_CREATE_CLAN" text="建立家族" />
+    <string id="MG_CLAN_NAME_PROMPT" text="请确定新家族的名称：" />
+    <string id="MG_SELECT_FIEF" text="选择封地" />
+    <string id="MG_GRANT_HINT" text="将此据点册封给新领主" />
+    <string id="MG_NEED_FIEF" text="册封需要授予一个由玩家家族拥有的城镇或城堡。" />
+    <string id="MG_SELECT_FIEF_PROMPT" text="请选择一个城镇或城堡授予新领主。册封完成后，该据点将不再属于玩家家族。" />
+    <string id="MG_ENNOBLE" text="正式册封" />
+    <string id="MG_COST_BOTH" text="20000第纳尔和500影响力" />
+    <string id="MG_COST_GOLD" text="20000第纳尔" />
+    <string id="MG_COST_INFLUENCE" text="500影响力" />
+    <string id="MG_CANNOT_ENNOBLE" text="无法册封：需要" />
+    <string id="MG_CONFIRM_ENNOBLE" text="确认册封" />
+    <string id="MG_GRANT_PREFIX" text="将授予" />
+    <string id="MG_GRANT_SUFFIX" text="，并支付20000第纳尔和500影响力。是否继续？" />
+    <string id="MG_CONFIRM" text="确认" />
+    <string id="MG_NAME_EMPTY" text="名称不能为空。" />
+    <string id="MG_NAME_LONG" text="名称不能超过32个字符。" />
+    <string id="MG_NAME_INVALID" text="名称包含不支持的字符。" />
+    <string id="MG_PARTY_BLOCKED" text="请先处理当前部队界面中无法确认的操作。" />
+    <string id="MG_CONVERSATION_FAILED" text="军功爵：无法打开对话（" />
+    <string id="MG_TRANSFER_UNSUPPORTED" text="军功爵：当前游戏版本不支持单兵调动。" />
+    <string id="MG_TRANSFER_FAILED" text="军功爵：调动失败（" />
+    <string id="MG_FAIL_RESOURCES" text="册封失败：第纳尔或影响力不足。" />
+    <string id="MG_FAIL_MISSING" text="册封失败：该士兵已不在原部队中。" />
+    <string id="MG_FAIL_BIRTHPLACE" text="册封失败：找不到适合该士兵文化的出生地。" />
+    <string id="MG_FAIL_CLAN" text="游戏未能创建新家族。" />
+    <string id="MG_SUCCESS_MIDDLE" text="已受封为领主，并建立了" />
+    <string id="MG_SUCCESS_ORIGIN" text="家族。（出身：" />
+    <string id="MG_PARTIAL_FAIL" text="领主已建立，但原版后续步骤未全部完成：" />
+    <string id="MG_FAIL_PREFIX" text="册封失败：" />
+    <string id="MG_RELATIVE_FAIL" text="领主已册封，但原版家族成员生成步骤失败：" />
+  </strings>
+</base>

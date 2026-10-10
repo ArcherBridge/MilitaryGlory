@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags><tag language="English" /></tags>
+  <strings>
+    <string id="MG_STATUS_WOUNDED" text="Wounded" />
+    <string id="MG_STATUS_READY" text="Ready" />
+    <string id="MG_UI_NAME" text="Troop" />
+    <string id="MG_UI_NUMBER" text="Number" />
+    <string id="MG_UI_KILLS" text="Defeats" />
+    <string id="MG_UI_WOUNDS" text="Times Wounded" />
+    <string id="MG_UI_STATUS" text="Status" />
+    <string id="MG_UI_ACTION" text="Action" />
+    <string id="MG_UI_TALK" text="Talk" />
+    <string id="MG_UI_ROSTER_HINT" text="Military Glory Roster" />
+    <string id="MG_DLG_OFFER_UNQUALIFIED" text="I wish to reward you for your services." />
+    <string id="MG_DLG_OFFER" text="I wish to reward you for your services. Your military glory merits lordship." />
+    <string id="MG_DLG_ACCEPT" text="Yes. I would be honored to be considered." />
+    <string id="MG_DLG_NAME" text="Very well. I will grant you a fief and choose the name of your noble house." />
+    <string id="MG_DLG_INSUFFICIENT" text="Commander, my ability is not yet sufficient to serve as a lord." />
+    <string id="MG_DLG_NO_AUTHORITY" text="Commander, you do not yet have the authority to ennoble me." />
+    <string id="MG_DLG_NO_FIEF" text="Commander, you have no town or castle to grant me for a new noble house." />
+    <string id="MG_DLG_NO_GOLD" text="Commander, you cannot yet provide the 20,000 denars needed to establish my house." />
+    <string id="MG_DLG_NO_INFLUENCE" text="Commander, your influence is not yet sufficient to ennoble me. You need 500 influence." />
+    <string id="MG_DLG_NO_RESOURCES" text="Commander, establishing my house requires 20,000 denars, and ennoblement requires 500 influence." />
+    <string id="MG_CONVERSATION_FAILED" text="Military Glory: conversation could not be opened (" />
+    <string id="MG_BATTLE_DISTRIBUTED" text="Military Glory: distributed battle merit for " />
+    <string id="MG_BATTLE_TYPES" text=" troop types, " />
+    <string id="MG_BATTLE_KILLS" text=" defeats." />
+    <string id="MG_BATTLE_NO_DATA" text="Military Glory: no player-party result data was captured." />
+    <string id="MG_BATTLE_TRACKING_STARTED" text="Military Glory: battle merit tracking started." />
+    <string id="MG_MODULE_ACTIVE" text="Military Glory: tracking module loaded (build 1469)." />
+    <string id="MG_ORIGIN_LEGACY_SAVE" text="Legacy save initial party" />
+  </strings>
+</base>

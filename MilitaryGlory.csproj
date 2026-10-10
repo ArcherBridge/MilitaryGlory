@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <AssemblyName>MilitaryGlory</AssemblyName>
+    <RootNamespace>MilitaryGlory</RootNamespace>
+    <OutputPath>bin\Win64_Shipping_Client\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="netstandard" />
+    <Reference Include="TaleWorlds.CampaignSystem" HintPath="..\..\bin\Win64_Shipping_Client\TaleWorlds.CampaignSystem.dll" Private="false" />
+    <Reference Include="TaleWorlds.CampaignSystem.ViewModelCollection" HintPath="..\..\bin\Win64_Shipping_Client\TaleWorlds.CampaignSystem.ViewModelCollection.dll" Private="false" />
+    <Reference Include="TaleWorlds.Core" HintPath="..\..\bin\Win64_Shipping_Client\TaleWorlds.Core.dll" Private="false" />
+    <Reference Include="TaleWorlds.Core.ViewModelCollection" HintPath="..\..\bin\Win64_Shipping_Client\TaleWorlds.Core.ViewModelCollection.dll" Private="false" />
+    <Reference Include="TaleWorlds.DotNet" HintPath="..\..\bin\Win64_Shipping_Client\TaleWorlds.DotNet.dll" Private="false" />
+    <Reference Include="TaleWorlds.Library" HintPath="..\..\bin\Win64_Shipping_Client\TaleWorlds.Library.dll" Private="false" />
+    <Reference Include="TaleWorlds.Localization" HintPath="..\..\bin\Win64_Shipping_Client\TaleWorlds.Localization.dll" Private="false" />
+    <Reference Include="TaleWorlds.MountAndBlade" HintPath="..\..\bin\Win64_Shipping_Client\TaleWorlds.MountAndBlade.dll" Private="false" />
+    <Reference Include="TaleWorlds.MountAndBlade.ViewModelCollection" HintPath="..\..\bin\Win64_Shipping_Client\TaleWorlds.MountAndBlade.ViewModelCollection.dll" Private="false" />
+    <Reference Include="TaleWorlds.ObjectSystem" HintPath="..\..\bin\Win64_Shipping_Client\TaleWorlds.ObjectSystem.dll" Private="false" />
+    <Reference Include="TaleWorlds.SaveSystem" HintPath="..\..\bin\Win64_Shipping_Client\TaleWorlds.SaveSystem.dll" Private="false" />
+    <Reference Include="Bannerlord.UIExtenderEx" HintPath="$(UIExtenderExPath)" Private="false" Condition="'$(UIExtenderExPath)' != ''" />
+    <Reference Include="0Harmony" HintPath="$(HarmonyPath)" Private="false" Condition="'$(HarmonyPath)' != ''" />
+    <PackageReference Include="Bannerlord.UIExtenderEx" Version="2.13.3" Condition="'$(UIExtenderExPath)' == ''">
+      <ExcludeAssets>runtime</ExcludeAssets>
+    </PackageReference>
+    <PackageReference Include="Lib.Harmony" Version="2.4.2" Condition="'$(HarmonyPath)' == ''">
+      <ExcludeAssets>runtime</ExcludeAssets>
+    </PackageReference>
+  </ItemGroup>
+</Project>
